@@ -1,43 +1,18 @@
 [Main Menu](../README.md)    | [Next](../demo4/README.md)
 ------------------ | -----------------
 
-### Demo 3: Ingest Items with Zero, One, and Two Items (PDF and Docs)
+## Demo 3: Ingest Items with Zero, One, and Two Items (PDF and Docs)
 
 This demo will be run on demo.dspace.org.
 
-- Create collection
-- Ingest Zips
-- Run collection report to query for one, two, and three items
-- Query for docs and images
+The file [itemsWithBitstreams.zip](itemsWithBitstreams.zip) will be used to populate a collection used in this demonstration.
 
-## Files
+You can browse the contents of this zip file [here](itemsWithBitstreams).
 
-- itemsWithBitstreams.zip
-  - item1-noBits
-    - metadata
-  - item2-oneDoc
-    - metadata
-    - contents
-    - doc1.pdf
-  - item3-twoDoc
-    - metadata
-    - contents
-    - doc1.pdf
-    - doc2.pdf
-  - item4-oneImage
-    - metadata
-    - contents
-    - image1.jpg
-  - item5-twoImage
-    - metadata
-    - contents
-    - image1.jpg
-    - image2.jpg
-  - item6-mixedContent
-    - metadata
-    - contents
-    - doc1.pdf
-    - image2.pdf
+### In your test community, create a new Collection Named "Demo 3".  Ingest the __itemsWithBitstreams.zip__.
+
+![Screenshot: Create a Collection from an Ingest Zip](batchLoadDemo3.png)
+
 
 [Main Menu](../README.md)    | [Next](../demo4/README.md)
 ------------------ | -----------------
