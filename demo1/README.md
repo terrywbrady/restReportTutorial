@@ -13,6 +13,5 @@ This demo will be run on demo.dspace.org.
 
 - metadataLoad.csv
 
------------------- | -----------------
 [Main Menu](..)    | [Next](../demo2)
 ------------------ | -----------------
