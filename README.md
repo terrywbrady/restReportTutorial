@@ -3,17 +3,7 @@
 
 # Tutorial for the DSpace REST Report Tools
 
-## Report Tool Introduction
-- Query Tools Features
-  - Search for Audio (or course videos)
-  - Filter for Audio with other assets
-  - Extract with subject terms
-- Collection Report Features
-  - Find items with zero, one, and two bitstreams
-  - Find items with an image and a document
-- Normalize Thesis type
-  - Update metadata to normalize
-  - Use CSV/excel/metadata update
+[![Tools Still Image](restOverview.png)](https://www.youtube.com/watch?v=K2gGHYUZI40)
 
 ## Try it yourself
 
