@@ -1,4 +1,4 @@
-[Main Menu](..)    | [Next](../demo3)
+[Main Menu](../README.md)    | [Next](../demo3/README.md)
 ------------------ | -----------------
 
 ### Demo 2: Item Special Cases 
@@ -41,5 +41,5 @@ This demo will be run on demo.dspace.org.
     - doc1.pdf
     - image2.pdf
 
-[Main Menu](..)    | [Next](../demo3)
+[Main Menu](../README.md)    | [Next](../demo3/README.md)
 ------------------ | -----------------

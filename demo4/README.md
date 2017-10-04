@@ -1,4 +1,4 @@
-[Main Menu](..)    | [Next](../demo5)
+[Main Menu](../README.md)    | [Next](../demo5/README.md)
 ------------------ | -----------------
 
 ### Demo 4: Ingest Items with Embargos
@@ -15,5 +15,5 @@ This demo will be run on demo.dspace.org.
   - item7-embargo1
   - item7-embargo2
 
-[Main Menu](..)    | [Next](../demo5)
+[Main Menu](../README.md)    | [Next](../demo5/README.md)
 ------------------ | -----------------

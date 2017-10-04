@@ -1,4 +1,4 @@
-[Main Menu](..)    | [Next](../demo4)
+[Main Menu](../README.md)    | [Next](../demo4/README.md)
 ------------------ | -----------------
 
 ### Demo 3: Ingest Items with Zero, One, and Two Items (PDF and Docs)
@@ -10,5 +10,5 @@ This demo will be run on demo.dspace.org.
 - Run collection report to query for one, two, and three items
 - Query for docs and images
 
-[Main Menu](..)    | [Next](../demo4)
+[Main Menu](../README.md)    | [Next](../demo4/README.md)
 ------------------ | -----------------
