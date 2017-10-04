@@ -1,4 +1,4 @@
-[Main Menu](..)    | End
+[Main Menu](../README.md)    | End
 ------------------ | -----------------
 
 ### Demo 6: Highlight Custom Extensions to the the REST Query Tools 
@@ -10,5 +10,5 @@ This demo will feature custom extensions to the DSpace REST Report Tools.
 - Pre-set filters
   - Code examples
   
-[Main Menu](..)    | End
+[Main Menu](../README.md)    | End
 ------------------ | -----------------
