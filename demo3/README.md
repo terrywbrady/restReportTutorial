@@ -5,9 +5,9 @@
 
 This demo will be run on demo.dspace.org.
 
-The file [itemsWithBitstreams.zip](itemsWithBitstreams.zip) will be used to populate a collection used in this demonstration.
+The file [itemsWithBitstreams.zip](data/itemsWithBitstreams.zip) will be used to populate a collection used in this demonstration.
 
-You can browse the contents of this zip file [here](itemsWithBitstreams).
+You can browse the contents of this zip file [here](data/itemsWithBitstreams).
 
 ### In your test community, create a new Collection Named "Demo 3".  Ingest the __itemsWithBitstreams.zip__.
 
