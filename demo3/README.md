@@ -6,3 +6,8 @@ This demo will be run on demo.dspace.org.
 - Ingest Zips
 - Run collection report to query for one, two, and three items
 - Query for docs and images
+
+<hr/>
+[Main Menu](..)
+[Next](../demo4)
+<hr/>
