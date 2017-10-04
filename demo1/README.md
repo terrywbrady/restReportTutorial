@@ -14,7 +14,7 @@ This demo will be run on demo.dspace.org.
 
 ## Files
 
-- metadataLoad.csv
+- [metadataUpload.csv](metadataUpload.csv)
 
 [Main Menu](../README.md)    | [Next](../demo2/README.md)
 ------------------ | -----------------
