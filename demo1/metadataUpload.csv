@@ -11,5 +11,5 @@ id,collection,dc.title[en],dc.creator[en],dc.subject[en],dc.description[en],dc.d
 +,your-coll-handle-goes-here,demo Ten,Person Six and Person Seven,,"1 creator, 0 subject",TODO: add a subject||TODO: capitalize title||TODO: separate creator
 +,your-coll-handle-goes-here,Demo Eleven,Person Eight,deer,"1 creator, 1 subject",
 +,your-coll-handle-goes-here,Demo Twelve,Person One,ant||wasp||bee,"1 creator, 3 subjects",
-+,your-coll-handle-goes-here,Demo Thirteen,Person Three,horse,"1 creator, 1 subject, to be marked not discoverable",TODO: mark not discoverable
++,your-coll-handle-goes-here,Demo Thirteen,Person Three,horse,"1 creator, 1 subject, to be marked not discoverable",TODO: withdraw
 +,your-coll-handle-goes-here,Demo Fourteen ,Person Five,frog,"1 creator, 1 subject, to be marked private",TODO: mark private

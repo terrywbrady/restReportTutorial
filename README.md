@@ -15,7 +15,7 @@ The DSpace instance shown in this video contains some customized enhancements be
 
 - [Demo 1: Metadata Load and Update](demo1)
   - This demo will be run on demo.dspace.org.
-- [Demo 2: Item Special Cases](demo2) 
+- [Demo 2: Item Special Cases - Exploring Filters](demo2) 
   - This demo will be run on demo.dspace.org.
 - [Demo 3: Ingest Items with Zero, One, and Two Items (PDF and Docs)](demo3)
   - This demo will be run on demo.dspace.org.
