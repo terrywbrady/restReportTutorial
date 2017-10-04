@@ -38,7 +38,6 @@ This demo will be run on demo.dspace.org.
     - doc1.pdf
     - image2.pdf
 
-<hr/>
-[Main Menu](..)
-[Next](../demo3)
-<hr/>
+------------------|-----------------
+[Main Menu](..)   |[Next](../demo3)
+------------------|-----------------

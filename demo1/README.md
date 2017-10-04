@@ -13,7 +13,6 @@ This demo will be run on demo.dspace.org.
 
 - metadataLoad.csv
 
-<hr/>
-[Main Menu](..)
-[Next](../demo2)
-<hr/>
+------------------|-----------------
+[Main Menu](..)   |[Next](../demo2)
+------------------|-----------------
