@@ -3,7 +3,14 @@
 
 # Tutorial for the DSpace REST Report Tools
 
+The DSpace 6.0 release contained a set of reporting tools built upon the DSpace REST API.  See https://wiki.duraspace.org/display/DSPACE/DSpace+Release+6.0+Status
+
+## Introduction
+This video provides an overview of the DSpace REST Report Tools.
+
 [![Tools Still Image](restOverview.png)](https://www.youtube.com/watch?v=K2gGHYUZI40)
+
+The DSpace instance shown in this video contains some customized enhancements beyond the base tools release in DSpace 6.0.  The tutorial will highlight those extended features.
 
 ## Try it yourself
 
