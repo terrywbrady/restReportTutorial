@@ -1,15 +1,15 @@
 id,collection,dc.title[en],dc.creator[en],dc.subject[en],dc.description[en],dc.description.abstract[en]
-+,your-coll-hadle-goes-here,Demo One,Person Four,cat||puppy,1 creator and 2 subjects,
-+,your-coll-hadle-goes-here,Demo Two,Person One||Person Two,dog,"2 creators, 1 subject, URL in description||This sentence has a URL: http://www.google.com",
-+,your-coll-hadle-goes-here,Demo Three,Person Five,bird||cat||dog||fish,"1 creator, 4 subjects",
-+,your-coll-hadle-goes-here,Demo Four,Person Six||Person Three||Person Four,horse||entrée,"3 creators, 2 subjects, non-ascii character in subject",Note: has non-ascii character in metadata
-+,your-coll-hadle-goes-here,Demo Five,Person Five,cow,"1 creator, 1 subject, mailto in description. Sample mailto mailto:test@test.org",
-+,your-coll-hadle-goes-here,Demo Six,Person Five and Person One,kitten; puppy,"2 creators in one field, 2 subjects in one field",TODO: separate subject terms and creator
-+,your-coll-hadle-goes-here,demo Seven,Person Five,seahorse,"1 creator, 1 subject, lowercase title",TODO: capitalize title
-+,your-coll-hadle-goes-here,Demo Eight,Person Four,,"1 creator, 0 subject",TODO: add a subject
-+,your-coll-hadle-goes-here,Demo Nine,Person Five,,"1 creator, 0 subject",TODO: add a subject
-+,your-coll-hadle-goes-here,demo Ten,Person Six and Person Seven,,"1 creator, 0 subject",TODO: add a subject||TODO: capitalize title||TODO: separate creator
-+,your-coll-hadle-goes-here,Demo Eleven,Person Eight,deer,"1 creator, 1 subject",
-+,your-coll-hadle-goes-here,Demo Twelve,Person One,ant||wasp||bee,"1 creator, 3 subjects",
-+,your-coll-hadle-goes-here,Demo Thirteen,Person Three,horse,"1 creator, 1 subject, to be marked not discoverable",TODO: mark not discoverable
-+,your-coll-hadle-goes-here,Demo Fourteen ,Person Five,frog,"1 creator, 1 subject, to be marked private",TODO: mark private
++,your-coll-handle-goes-here,Demo One,Person Four,cat||puppy,1 creator and 2 subjects,
++,your-coll-handle-goes-here,Demo Two,Person One||Person Two,dog,"2 creators, 1 subject, URL in description||This sentence has a URL: http://www.google.com",
++,your-coll-handle-goes-here,Demo Three,Person Five,bird||cat||dog||fish,"1 creator, 4 subjects",
++,your-coll-handle-goes-here,Demo Four,Person Six||Person Three||Person Four,horse||entrée,"3 creators, 2 subjects, non-ascii character in subject",Note: has non-ascii character in metadata
++,your-coll-handle-goes-here,Demo Five,Person Five,cow,"1 creator, 1 subject, mailto in description. Sample mailto mailto:test@test.org",
++,your-coll-handle-goes-here,Demo Six,Person Five and Person One,kitten; puppy,"2 creators in one field, 2 subjects in one field",TODO: separate subject terms and creator
++,your-coll-handle-goes-here,demo Seven,Person Five,seahorse,"1 creator, 1 subject, lowercase title",TODO: capitalize title
++,your-coll-handle-goes-here,Demo Eight,Person Four,,"1 creator, 0 subject",TODO: add a subject
++,your-coll-handle-goes-here,Demo Nine,Person Five,,"1 creator, 0 subject",TODO: add a subject
++,your-coll-handle-goes-here,demo Ten,Person Six and Person Seven,,"1 creator, 0 subject",TODO: add a subject||TODO: capitalize title||TODO: separate creator
++,your-coll-handle-goes-here,Demo Eleven,Person Eight,deer,"1 creator, 1 subject",
++,your-coll-handle-goes-here,Demo Twelve,Person One,ant||wasp||bee,"1 creator, 3 subjects",
++,your-coll-handle-goes-here,Demo Thirteen,Person Three,horse,"1 creator, 1 subject, to be marked not discoverable",TODO: mark not discoverable
++,your-coll-handle-goes-here,Demo Fourteen ,Person Five,frog,"1 creator, 1 subject, to be marked private",TODO: mark private
