@@ -1,3 +1,6 @@
+[Main Menu](..)    | [Next](../demo2)
+------------------ | -----------------
+
 ### Demo 1: Metadata Load and Update
 
 This demo will be run on demo.dspace.org.

@@ -1,3 +1,6 @@
+[Main Menu](..)    | [Next](../demo5)
+------------------ | -----------------
+
 ### Demo 4: Ingest Items with Embargos
 
 This demo will be run on demo.dspace.org.
@@ -12,7 +15,5 @@ This demo will be run on demo.dspace.org.
   - item7-embargo1
   - item7-embargo2
 
-<hr/>
-[Main Menu](..)
-[Next](../demo5)
-<hr/>
+[Main Menu](..)    | [Next](../demo5)
+------------------ | -----------------
