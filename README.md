@@ -1,6 +1,5 @@
-[Demo 1](demo1/README.md) | [Demo 2](demo2/README.md) | [Demo 3](demo3/README.md) | [Demo 4](demo4/README.md) | [Demo 5](demo5/README.md) | [Demo 6](demo6/README.md)
-------------------------- | ------------------------- | ------------------------- | ------------------------- | ------------------------- | ------------------------- 
-
+[Setup](setup/README.md) | [Demo 1](demo1/README.md) | [Demo 2](demo2/README.md) | [Demo 3](demo3/README.md) | [Demo 4](demo4/README.md) | [Demo 5](demo5/README.md) | [Demo 6](demo6/README.md)
+------------------------- | ------------------------- | ------------------------- | ------------------------- | ------------------------- | ------------------------- | ------------------------- 
 # Tutorial for the DSpace REST Report Tools
 
 The DSpace 6.0 release contained a set of reporting tools built upon the DSpace REST API.  See https://wiki.duraspace.org/display/DSPACE/DSpace+Release+6.0+Status
@@ -27,5 +26,5 @@ The DSpace instance shown in this video contains some customized enhancements be
 - [Demo 6: Highlight Custom Extensions to the the REST Query Tools](demo6) 
   - This demo will feature custom extensions to the DSpace REST Report Tools.
 
-[Demo 1](demo1/README.md) | [Demo 2](demo2/README.md) | [Demo 3](demo3/README.md) | [Demo 4](demo4/README.md) | [Demo 5](demo5/README.md) | [Demo 6](demo6/README.md)
-------------------------- | ------------------------- | ------------------------- | ------------------------- | ------------------------- | ------------------------- 
+[Setup](setup/README.md) | [Demo 1](demo1/README.md) | [Demo 2](demo2/README.md) | [Demo 3](demo3/README.md) | [Demo 4](demo4/README.md) | [Demo 5](demo5/README.md) | [Demo 6](demo6/README.md)
+------------------------- | ------------------------- | ------------------------- | ------------------------- | ------------------------- | ------------------------- | ------------------------- 
