@@ -9,6 +9,9 @@ This demo will be run on demo.dspace.org.
 - Ingest Zips
 - Run collection report to query for embargo items
 
+## Existing Bug in DSpace 6.2
+* See https://jira.duraspace.org/browse/DS-3713
+
 ## Files
 
 - itemsWithEmbargo.zip

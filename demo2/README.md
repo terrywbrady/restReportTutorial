@@ -52,6 +52,11 @@ Open the "Collection Filter" Report: https://demo.dspace.org/rest/static/reports
 
 ![Screenshot: Collection Report Private Items](collItems.png)
 
+### View Withdrawn Items for a Collection
+
+#### Bug in DSpace 6.2
+* See https://jira.duraspace.org/browse/DS-3714
+
 ### Add dc.description.abstract to Item Listing
 
 ![Screenshot: Collection Report Private Items](collItemFields.png)
