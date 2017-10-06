@@ -6,7 +6,7 @@
 This demo will be run on a server running an enhanced version of the report tools that extract bitstream properties. See PR xxx to replicate.
 
 ## Feature Enhancement
-![Note](note.png) This feature requires an enhancement to DSpace 6.x.  It cannot yet be tested on demo.dspace.org.
+![Note](../note.png) This feature requires an enhancement to DSpace 6.x.  It cannot yet be tested on demo.dspace.org.
 * See https://jira.duraspace.org/browse/DS-3704
 * See https://github.com/DSpace/DSpace/pull/1854
 

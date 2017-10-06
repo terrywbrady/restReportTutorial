@@ -55,7 +55,7 @@ Open the "Collection Filter" Report: https://demo.dspace.org/rest/static/reports
 ### View Withdrawn Items for a Collection
 
 #### Bug in DSpace 6.2
-![Note](note.png) There is a bug in the detection of withdrawn items in DSpace 6x.  It cannot yet be tested on demo.dspace.org.
+![Note](../note.png) There is a bug in the detection of withdrawn items in DSpace 6x.  It cannot yet be tested on demo.dspace.org.
 * See https://jira.duraspace.org/browse/DS-3714
 * https://github.com/DSpace/DSpace/pull/1862
 
