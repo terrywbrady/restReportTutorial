@@ -48,16 +48,11 @@ Open the "Collection Filter" Report: https://demo.dspace.org/rest/static/reports
 
 ![Screenshot: Collection Report with Filters](collRes.png)
 
-### View Private Items for a Collection
-
-![Screenshot: Collection Report Private Items](collItems.png)
-
-### View Withdrawn Items for a Collection
-
-#### Bug in DSpace 6.2
 ![Note](../note.png) There is a bug in the detection of withdrawn items in DSpace 6x.  It cannot yet be tested on demo.dspace.org.
 * See https://jira.duraspace.org/browse/DS-3714
 * https://github.com/DSpace/DSpace/pull/1862
+
+![Screenshot: Collection Report Private Items](collItems.png)
 
 ### Add dc.description.abstract to Item Listing
 
