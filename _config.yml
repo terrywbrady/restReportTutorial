@@ -1,1 +1,6 @@
+title: DSpace 6 REST Report Tutorial
+description: "Description..."
+baseurl: "/restReportTutorial" 
+url: "http://terrywbrady.github.io/restReportTutorial" 
+tagline: Understand your metadata
 theme: jekyll-theme-cayman
