@@ -1,7 +1,7 @@
-[Main Menu](../README.md)    | [Next](../demo4/README.md)
------------------- | -----------------
 
 ## Demo 3: Ingest Items with Zero, One, and Two Items and apply Bitstream Filters
+
+{% include nav.html %}
 
 This demo will be run on demo.dspace.org.
 
@@ -27,5 +27,4 @@ If this filter is paired with the metadata query tool, it can be used to enforce
 ![Screenshot Demo 3 Filter on Bitstream Type](coll3fType.png)
 ![Screenshot Demo 3 Items by Bitstream Type](coll3fTypeRes.png)
 
-[Main Menu](../README.md)    | [Next](../demo4/README.md)
------------------- | -----------------
+{% include nav.html %}
