@@ -41,6 +41,6 @@ Include Withdrawn Items in Coll Report | [DS-3714](https://jira.duraspace.org/br
 Integrate Shibboleth with the REST Report Tools | [DS-3811](https://jira.duraspace.org/browse/DS-3811) | [PR 1934](https://github.com/DSpace/DSpace/pull/1934)
 
 Nav | [Setup](setup/README.md) | [Demo 1](demo1/README.md) | [Demo 2](demo2/README.md) | [Demo 3](demo3/README.md) | [Demo 4](demo4/README.md) | [Demo 5](demo5/README.md) | [Demo 6](demo6/README.md) | Nav
---- | ------------------------ | ------------------------- | ------------------------- | ------------------------- | ------------------------------------ | ------------------------- | ------------------------- | Nav
+--- | ------------------------ | ------------------------- | ------------------------- | ------------------------- | ------------------------------------ | ------------------------- | ------------------------- | ---
 
 Note
