@@ -2,6 +2,8 @@
 ------------------------- | ------------------------- | ------------------------- | ------------------------- | ------------------------- | ------------------------- | ------------------------- 
 # Tutorial for the DSpace REST Report Tools
 
+{% include nav.html %}
+
 The DSpace 6.0 release contained a set of reporting tools built upon the DSpace REST API.  See https://wiki.duraspace.org/display/DSPACE/DSpace+Release+6.0+Status
 
 _TODO: Migrate this tutorial repo to DSpace-Labs_
