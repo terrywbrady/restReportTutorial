@@ -1,7 +1,6 @@
-[Main Menu](../README.md)    | [Next](../demo5/README.md)
------------------- | -----------------
-
 ### Demo 4: Ingest Items with Embargos
+
+{% include nav.html %}
 
 ![Note](../note.png) There is a bug in the detection of restricted bitstreams in DSpace 6x.  It cannot yet be tested on demo.dspace.org.
 * See https://jira.duraspace.org/browse/DS-3713
@@ -20,5 +19,4 @@ You can browse the contents of this zip file [here](data/itemsWithEmbargoBitstre
 
 ![Screenshot: Restricted Original Filter](embRes.png)
 
-[Main Menu](../README.md)    | [Next](../demo5/README.md)
------------------- | -----------------
+{% include nav.html %}
