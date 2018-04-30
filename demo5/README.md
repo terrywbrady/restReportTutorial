@@ -1,7 +1,7 @@
-[Main Menu](../README.md)    | [Next](../demo6/README.md)
------------------- | -----------------
 
 ### Demo 5: View Bitstream Properties
+
+{% include nav.html %}
 
 This demo will be run on a server running an enhanced version of the report tools that extract bitstream properties. See PR xxx to replicate.
 
@@ -22,5 +22,4 @@ This demo will be run on a server running an enhanced version of the report tool
 
 ![Screenshot: View Results with Bitstream Properties](bit3.png)
 
-[Main Menu](../README.md)    | [Next](../demo6/README.md)
------------------- | -----------------
+{% include nav.html %}
