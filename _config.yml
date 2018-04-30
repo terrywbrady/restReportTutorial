@@ -3,4 +3,4 @@ description: "Description..."
 baseurl: "/restReportTutorial" 
 url: "http://terrywbrady.github.io/restReportTutorial" 
 tagline: Understand your metadata
-theme: jekyll-theme-tactile
+theme: jekyll-theme-hacker
