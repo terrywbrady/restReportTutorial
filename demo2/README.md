@@ -1,7 +1,7 @@
-[Main Menu](../README.md)    | [Next](../demo3/README.md)
------------------- | -----------------
 
 ## Demo 2: Item Special Cases - Exploring Filters
+
+{% include nav.html %}
 
 This demo will be run on demo.dspace.org.
 
@@ -62,6 +62,4 @@ Open the "Collection Filter" Report: https://demo.dspace.org/rest/static/reports
 
 ![Screenshot: Collection Report Private Items](collItemWithFields.png)
 
-
-[Main Menu](../README.md)    | [Next](../demo3/README.md)
------------------- | -----------------
+{% include nav.html %}
