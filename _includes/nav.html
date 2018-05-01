@@ -9,7 +9,7 @@
       {% for tpage in tpages %}
         {% assign tindex = forloop.index0 %}
         {% assign name = tnames[tindex] %}
-        <th><a href="{{tpage | prepend site.url}}">{{name}}</a></th>
+        <th>{{name}}</th>
       {% endfor %}
     </tr>
   </table>
