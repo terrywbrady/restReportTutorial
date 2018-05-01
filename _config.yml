@@ -6,3 +6,6 @@ tagline: Understand your metadata
 theme: jekyll-theme-cayman
 show_downloads: false
 google_analytics: UA-297597-14
+relative_links:
+  enabled:     false
+  collections: false
