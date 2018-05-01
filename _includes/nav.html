@@ -9,6 +9,10 @@
         {% assign thref  = tpage | prepend: "/" %}
         <th class="{% if tpage == page.url %}CUR{% endif %}">
           <a href="{{thref | prepend: site.url}}">{{name}}</a>
+          <br/>
+          {{thref}}
+          <br/>
+          {{page.url}}
         </th>
       {% endfor %}
     </tr>
