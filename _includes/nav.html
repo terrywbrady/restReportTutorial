@@ -3,7 +3,7 @@
   {% assign tnames = "Main,Setup,Demo 1,Demo 2,Demo 3,Demo 4,Demo 5,Demo 6" | split: "," %}  
   <div>site.url {{site.url}}</div>
   <div>page.url {{page.url}}</div>
-  <div>url {{page.url|prepend site.url}}</div>
+  <div>url {{page.url|prepend: site.url}}</div>
   <table>
     <tr>
       {% for tpage in tpages %}
