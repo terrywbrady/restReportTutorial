@@ -6,10 +6,10 @@
       {% for tpage in tpages %}
         {% assign tindex = forloop.index0 %}
         {% assign name   = tnames[tindex] %}
-        {% assign thref  = tpage | prepend: "/" | prepend: site.url%}
+        {% assign thref  = tpage | prepend: "/" %}
         <th class="{% if tpage == page.url %}CUR{% endif %}">
           [{{page.url}}|{{tpage}}]
-          <a href="{{thref}}">{{name}}</a>
+          <a href="{{thref | prepend: site.url}}">{{name}}</a>
         </th>
       {% endfor %}
     </tr>
