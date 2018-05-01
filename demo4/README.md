@@ -2,7 +2,8 @@
 
 {% include nav.html %}
 
-![Note](../note.png) There is a bug in the detection of restricted bitstreams in DSpace 6x.  It cannot yet be tested on demo.dspace.org.
+### DSpace 6.3 Code Dependency
+This demo will be run on a server running an enhanced version of the report tools to address a bug in the detection of restricted bitstreams . This will be included in the DSpace 6.3 release.  It cannot yet be tested on demo.dspace.org.  It cannot yet be tested on demo.dspace.org.
 * See https://jira.duraspace.org/browse/DS-3713
 * See https://github.com/DSpace/DSpace/pull/1863
 
