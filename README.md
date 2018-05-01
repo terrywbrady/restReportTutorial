@@ -4,7 +4,7 @@
 
 The DSpace 6.0 release contained a set of reporting tools built upon the DSpace REST API.  See https://wiki.duraspace.org/display/DSPACE/DSpace+Release+6.0+Status
 
-[![Start Tutorial](StartTutorial.png)](https://terrywbrady.github.io/restReportTutorial)
+[![Start Tutorial](StartTutorial.png)](https://terrywbrady.github.io/restReportTutorial/intro)
 
 ## DSpace 6.3: Related Jira Tickets/Pull Requests
 
