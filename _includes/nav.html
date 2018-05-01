@@ -8,7 +8,7 @@
         {% assign name   = tnames[tindex] %}
         {% assign thref  = tpage | prepend: "/" %}
         <th class="{% if thref == page.url or tpage == page.url %}CUR{% endif %}">
-          <a href="{{thref | prepend: site.url}}">{{name}}</a>
+          <a href="{{thref | prepend: site.url}}">{{name}} {{page.url}}</a>
         </th>
       {% endfor %}
     </tr>
