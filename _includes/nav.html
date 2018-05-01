@@ -7,9 +7,9 @@
         {% assign tindex = forloop.index0 %}
         {% assign name   = tnames[tindex] %}
         {% assign thref  = tpage | prepend: "/" %}
-        {% assign alt    = tpage | append: ".html" %}
+        {% assign alt    = thref | append: ".html" %}
         <th class="{% if thref == page.url or tpage == page.url or alt == page.url %}CUR{% endif %}">
-          <a href="{{thref | prepend: site.url}}">{{name}} {{page.url}}||{{alt}}</a>
+          <a href="{{thref | prepend: site.url}}">{{name}}</a>
         </th>
       {% endfor %}
     </tr>
