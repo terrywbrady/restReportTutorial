@@ -9,7 +9,7 @@
         {% assign thref  = tpage | prepend: "/" %}
         {% assign alt    = tpage | append: ".html" %}
         <th class="{% if thref == page.url or tpage == page.url or alt == page.url %}CUR{% endif %}">
-          <a href="{{thref | prepend: site.url}}">{{name}} {{page.url}}</a>
+          <a href="{{thref | prepend: site.url}}">{{name}}</a>
         </th>
       {% endfor %}
     </tr>
