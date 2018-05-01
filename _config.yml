@@ -1,6 +1,8 @@
 title: DSpace 6 REST Report Tutorial
-description: "Description..."
+description: "Repoort tools designed for DSpace collection administrators"
 baseurl: "/restReportTutorial" 
 url: "http://terrywbrady.github.io/restReportTutorial" 
 tagline: Understand your metadata
 theme: jekyll-theme-cayman
+show_downloads: false
+google_analytics: UA-297597-14
