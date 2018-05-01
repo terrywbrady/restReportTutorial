@@ -28,7 +28,9 @@
     </tr>
   </table>
   <div>
-  {% for page in ["demo1","demo2","demo3"] %}
+    
+  {% assign tpages = "demo1","demo2","demo3" | split: ", " %}  
+  {% for page in tpages %}
     <h4>{{page}}</h4>
   {% endfor %}
     ...
