@@ -29,7 +29,7 @@
   </table>
   <div>
     
-  {% assign tpages = "demo1","demo2","demo3" | split: ", " %}  
+  {% assign tpages = "demo1,demo2,demo3" | split: "," %}  
   {% for page in tpages %}
     <h4>{{page}}</h4>
   {% endfor %}
