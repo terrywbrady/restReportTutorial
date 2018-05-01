@@ -33,7 +33,7 @@
   {% assign tnames = "Main,Setup,Demo 1,Demo 2,Demo 3,Demo 4,Demo 5,Demo 6" | split: "," %}  
   {% for page in tpages %}
     {% assign index = forloop.index()  %}
-    {% assign name = tnames[index] %}
+    {% assign name = tnames[index-1] %}
     <h4>{{page}} {{index}} {{name}}</h4>
   {% endfor %}
     ...
