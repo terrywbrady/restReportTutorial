@@ -28,6 +28,9 @@
     </tr>
   </table>
   <div>
-  {{ site.pages }}
+  {% for post in site.pages %}
+    <h4>{{post.url}}</h4>
+  {% endfor %}
+    ...
   </div>
 </div>
