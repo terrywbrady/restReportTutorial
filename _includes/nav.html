@@ -6,7 +6,7 @@
       {% for page in tpages %}
         {% assign tindex = forloop.index0 %}
         {% assign name = tnames[tindex] %}
-        <th><a ="{{page}}">{{name}} {{page.url}}</a></th>
+        <th><a href="{{page}}">{{name}} {{page.url}}</a></th>
       {% endfor %}
     </tr>
   </table>
