@@ -5,11 +5,11 @@
   <div>page.url {{page.url}}</div>
   <table>
     <tr>
-      {% for page in tpages %}
+      {% for tpage in tpages %}
         {% assign tindex = forloop.index0 %}
         {% assign name = tnames[tindex] %}
-        {% assign turl = site.url + page; %}
-        <th><a href="{{turl}}">{{name}} {{page.url}}</a></th>
+        {% assign turl = "{{site.url}}{{tpage}}" %}
+        <th><a href="{{turl}}">{{name}}</a></th>
       {% endfor %}
     </tr>
   </table>
