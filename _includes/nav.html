@@ -1,12 +1,15 @@
 <div>
   {% assign tpages = "/,setup/,demo1/,demo2/,demo3/,demo4/,demo5/,demo6/" | split: "," %}  
   {% assign tnames = "Main,Setup,Demo 1,Demo 2,Demo 3,Demo 4,Demo 5,Demo 6" | split: "," %}  
+  <div>site.url {{site.url}}</div>
+  <div>page.url {{page.url}}</div>
   <table>
     <tr>
       {% for page in tpages %}
         {% assign tindex = forloop.index0 %}
         {% assign name = tnames[tindex] %}
-        <th><a href="{{page}}">{{name}} {{page.url}}</a></th>
+        {% assign turl = site.url + page; %}
+        <th><a href="{{turl}}">{{name}} {{page.url}}</a></th>
       {% endfor %}
     </tr>
   </table>
