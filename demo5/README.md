@@ -1,5 +1,5 @@
 
-### Demo 5: View Bitstream Properties
+## Demo 5: View Bitstream Properties
 
 {% include nav.html %}
 
