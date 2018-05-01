@@ -1,5 +1,5 @@
 
-### Demo 6: Highlight Custom Extensions to the the REST Query Tools 
+## Demo 6: Highlight Custom Extensions to the the REST Query Tools 
 
 {% include nav.html %}
 
