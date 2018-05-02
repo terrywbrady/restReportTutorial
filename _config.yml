@@ -9,3 +9,4 @@ google_analytics: UA-297597-14
 relative_links:
   enabled:     false
   collections: false
+src_path: "https://github.com/terrywbrady/restReportTutorial/"
