@@ -14,7 +14,7 @@
 
 {% else %}
 
-  {% assign curi = 1 %}
+  {% assign curi = 0 %}
   {% for tnav in site.nav %}
     {% assign alt    = tnav.path | append: ".html" %}
     {% if tnav.path == page.url or alt == page.url %}
