@@ -23,8 +23,8 @@
 
 <table>
 <tr>
-  <td><a class="button" href="{{site.nav[curp].path}}">&#x21E6; {{site.nav[curp].name}}</a></td>
+  <td><a class="button" href="{{site.nav[curp].path | prepend: site.url}}">&#x21E6; {{site.nav[curp].name}}</a></td>
   <td>{{site.nav[curi].name}}</td>
-  <td><a class="button" href="{{site.nav[curn].path}}">{{site.nav[curn].name}} &#21E8;</a></td>
+  <td><a class="button" href="{{site.nav[curn].path | prepend: site.url}}">{{site.nav[curn].name}} &#x21E8;</a></td>
 </tr>
 </table>
