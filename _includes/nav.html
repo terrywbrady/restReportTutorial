@@ -21,9 +21,10 @@
 {% assign curp = curi | minus: 1 %}
 {% assign curn = curi | plus: 1 %}
 
-
-<div>
-  <a class="button" href="{{site.nav[curp].path}}">&lt;-- {{site.nav[curp].name}}</a>
-  <span class="current">{{site.nav[curi].name}}</span>
-  <a class="button" href="{{site.nav[curn].path}}">{{site.nav[curn].name}} --&gt;</a>
-</div>
+<table>
+<tr>
+  <td><a class="button" href="{{site.nav[curp].path}}">&#x21E6; {{site.nav[curp].name}}</a></td>
+  <td>{{site.nav[curi].name}}</td>
+  <td><a class="button" href="{{site.nav[curn].path}}">{{site.nav[curn].name}} &#21E8;</a></td>
+</tr>
+</table>
