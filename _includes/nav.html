@@ -1,23 +1,12 @@
 <div>
-  {% assign tpages = site.tpages | split: "," %}  
-  {% assign tnames = site.tnames | split: "," %}  
   <table>
     <tr>
-      {% for tpage in tpages %}
-        {% assign tindex = forloop.index0 %}
-        {% assign name   = tnames[tindex] %}
-        {% assign thref  = tpage | prepend: "/" %}
-        {% assign alt    = thref | append: ".html" %}
-        <th class="{% if thref == page.url or tpage == page.url or alt == page.url %}CUR{% endif %}">
-          <a href="{{thref | prepend: site.url}}">{{name}}</a>
+      {% for tnav in site.nav %}
+        {% assign alt    = tnav.path | append: ".html" %}
+        <th class="{% if tnav.path == page.url or alt == page.url %}CUR{% endif %}">
+          <a href="{{tnav.path | prepend: site.url}}">{{tnav.name}}</a>
         </th>
       {% endfor %}
     </tr>
   </table>
-</div>
-{{site.nav}}..
-<div>
-  {%for tnav in site.nav%}
-  <h4>{{tnav.name}} {{tnav.path}}</h4>
-  {% endfor %}
 </div>
