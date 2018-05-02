@@ -1,7 +1,7 @@
-[Main Menu](../README.md)    | [Next](../demo1/README.md)
------------------- | -----------------
 
 ## Tutorial Setup
+
+{% include nav.html %}
 
 ###  Clone this repository from GitHub 
 This will provide you with the resources for running this tutorial/
@@ -41,6 +41,4 @@ This will provide you with the resources for running this tutorial/
 
 ![Screenshot: View Community](demo5.png)
 
-
-[Main Menu](../README.md)    | [Next](../demo1/README.md)
------------------- | -----------------
+{% include nav.html %}

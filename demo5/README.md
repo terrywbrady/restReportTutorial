@@ -1,12 +1,10 @@
-[Main Menu](../README.md)    | [Next](../demo6/README.md)
------------------- | -----------------
 
-### Demo 5: View Bitstream Properties
+## Demo 5: View Bitstream Properties
 
-This demo will be run on a server running an enhanced version of the report tools that extract bitstream properties. See PR xxx to replicate.
+{% include nav.html %}
 
-## Feature Enhancement to view bitstream properites
-![Note](../note.png) This feature requires an enhancement to DSpace 6.x.  It cannot yet be tested on demo.dspace.org.
+### DSpace 6.3 Code Dependency
+This demo will be run on a server running an enhanced version of the report tools that extract bitstream properties. This will be included in the DSpace 6.3 release.  It cannot yet be tested on demo.dspace.org.
 * See https://jira.duraspace.org/browse/DS-3704
 * See https://github.com/DSpace/DSpace/pull/1854
 
@@ -22,5 +20,4 @@ This demo will be run on a server running an enhanced version of the report tool
 
 ![Screenshot: View Results with Bitstream Properties](bit3.png)
 
-[Main Menu](../README.md)    | [Next](../demo6/README.md)
------------------- | -----------------
+{% include nav.html %}

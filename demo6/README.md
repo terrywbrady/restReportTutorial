@@ -1,7 +1,7 @@
-[Main Menu](../README.md)    | End
------------------- | -----------------
 
-### Demo 6: Highlight Custom Extensions to the the REST Query Tools 
+## Demo 6: Highlight Custom Extensions to the the REST Query Tools 
+
+{% include nav.html %}
 
 This demo will feature custom extensions to the DSpace REST Report Tools.
 
@@ -79,5 +79,4 @@ See https://github.com/terrywbrady/PlainTextCSV_GoogleAppsScript to enable a Goo
 
 
   
-[Main Menu](../README.md)    | End
------------------- | -----------------
+{% include nav.html %}

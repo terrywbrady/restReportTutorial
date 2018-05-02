@@ -1,13 +1,13 @@
-[Main Menu](../README.md)    | [Next](../demo4/README.md)
------------------- | -----------------
 
 ## Demo 3: Ingest Items with Zero, One, and Two Items and apply Bitstream Filters
 
+{% include nav.html %}
+
 This demo will be run on demo.dspace.org.
 
-The file [itemsWithBitstreams.zip](data) will be used to populate a collection used in this demonstration.
+The file [itemsWithBitstreams.zip]({{site.src_path}}/demo3/data) will be used to populate a collection used in this demonstration.
 
-You can browse the contents of this zip file [here](data/itemsWithBitstreams).
+You can browse the contents of this zip file [here]({{site.src_path}}/demo3/data/itemsWithBitstreams).
 
 ### In your test community, create a new Collection Named "Demo 3".  Ingest the __itemsWithBitstreams.zip__.
 
@@ -27,5 +27,4 @@ If this filter is paired with the metadata query tool, it can be used to enforce
 ![Screenshot Demo 3 Filter on Bitstream Type](coll3fType.png)
 ![Screenshot Demo 3 Items by Bitstream Type](coll3fTypeRes.png)
 
-[Main Menu](../README.md)    | [Next](../demo4/README.md)
------------------- | -----------------
+{% include nav.html %}

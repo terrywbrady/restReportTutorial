@@ -1,0 +1,27 @@
+title: DSpace 6 REST Report Tutorial
+description: "Repoort tools designed for DSpace collection administrators"
+baseurl: "/restReportTutorial" 
+url: "http://terrywbrady.github.io/restReportTutorial" 
+tagline: Understand your metadata
+theme: jekyll-theme-cayman
+show_downloads: false
+google_analytics: UA-297597-14
+
+# --------------------------------
+# Custom additions for the tutorial navigation bar
+# --------------------------------
+
+# src_path - used to construct nested links to code files
+src_path: "https://github.com/terrywbrady/restReportTutorial/tree/gh-pages"
+
+# nav_style: menu or button
+nav_style: button
+nav:
+  - {name: Intro,    path: "/intro"}
+  - {name: Setup,    path: "/setup/"}
+  - {name: "1. Metadata Load and Update", path: "/demo1/"}
+  - {name: "2. Item Attribute Filtes", path: "/demo2/"}
+  - {name: "3. Bitstream Filters", path: "/demo3/"}
+  - {name: "4. Embargo Filters", path: "/demo4/"}
+  - {name: "5. Return Bitstream Properties", path: "/demo5/"}
+  - {name: "6. Custom Queries", path: "/demo6/"}
