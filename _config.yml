@@ -15,13 +15,13 @@ google_analytics: UA-297597-14
 src_path: "https://github.com/terrywbrady/restReportTutorial/tree/gh-pages"
 
 # nav_style: menu or button
-nav_style: menu
+nav_style: button
 nav:
   - {name: Intro,    path: "/intro"}
   - {name: Setup,    path: "/setup/"}
-  - {name: "Demo 1", path: "/demo1/"}
-  - {name: "Demo 2", path: "/demo2/"}
-  - {name: "Demo 3", path: "/demo3/"}
-  - {name: "Demo 4", path: "/demo4/"}
-  - {name: "Demo 5", path: "/demo5/"}
-  - {name: "Demo 6", path: "/demo6/"}
+  - {name: "1. Metadata Load and Update", path: "/demo1/"}
+  - {name: "2. Item Attribute Filtes", path: "/demo2/"}
+  - {name: "3. Bitstream Filters", path: "/demo3/"}
+  - {name: "4. Embargo Filters", path: "/demo4/"}
+  - {name: "5. Return Bitstream Properties", path: "/demo5/"}
+  - {name: "6. Custom Queries", path: "/demo6/"}
