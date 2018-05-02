@@ -7,3 +7,5 @@ theme: jekyll-theme-cayman
 show_downloads: false
 google_analytics: UA-297597-14
 src_path: "https://github.com/terrywbrady/restReportTutorial/tree/gh-pages"
+tpages: "intro,setup/,demo1/,demo2/,demo3/,demo4/,demo5/,demo6/"   
+tnames: "Intro,Setup,Demo 1,Demo 2,Demo 3,Demo 4,Demo 5,Demo 6"   
