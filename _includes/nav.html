@@ -23,8 +23,16 @@
 
 <table>
 <tr>
-  <td><a class="button" href="{{site.nav[curp].path | prepend: site.url}}">&#x21E6; {{site.nav[curp].name}}</a></td>
+  <td>
+    {% if curp >= 0 %}
+    <a class="button" href="{{site.nav[curp].path | prepend: site.url}}">&#x21E6; {{site.nav[curp].name}}</a>
+    {% endif %}
+  </td>  
   <td>{{site.nav[curi].name}}</td>
-  <td><a class="button" href="{{site.nav[curn].path | prepend: site.url}}">{{site.nav[curn].name}} &#x21E8;</a></td>
+  <td>
+    {% if curp < site.nav.length %}
+    <a class="button" href="{{site.nav[curn].path | prepend: site.url}}">{{site.nav[curn].name}} &#x21E8;</a>
+    {% endif %}
+  </td>
 </tr>
 </table>
