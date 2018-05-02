@@ -8,9 +8,9 @@ This demo will be run on a server running an enhanced version of the report tool
 * See https://github.com/DSpace/DSpace/pull/1863
 
 ### Upload a Zip file containing embargoed items into Collection "Demo 3".
-The file [itemsWithEmbargoBitstreams.zip](data) will be used to populate a collection used in this demonstration.  The contents file for each item sets a read restriction for the group Administrator for each item.
+The file [itemsWithEmbargoBitstreams.zip]({{site.src_path}}/demo4/data) will be used to populate a collection used in this demonstration.  The contents file for each item sets a read restriction for the group Administrator for each item.
 
-You can browse the contents of this zip file [here](data/itemsWithEmbargoBitstreams).
+You can browse the contents of this zip file [here]({{site.src_path}}/demo4/data/itemsWithEmbargoBitstreams).
 
 ![Screenshot: Upload Zip File with Embargoed Originals](embUpload.png)
 
