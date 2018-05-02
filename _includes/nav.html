@@ -30,7 +30,7 @@
   </td>  
   <td>{{site.nav[curi].name}}</td>
   <td>
-    {% if curp < site.nav.length %}
+    {% if curp < site.nav | size %}
     <a class="button" href="{{site.nav[curn].path | prepend: site.url}}">{{site.nav[curn].name}} &#x21E8;</a>
     {% endif %}
   </td>
