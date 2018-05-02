@@ -1,6 +1,6 @@
 <div>
-  {% assign tpages = "intro,setup/,demo1/,demo2/,demo3/,demo4/,demo5/,demo6/" | split: "," %}  
-  {% assign tnames = "Intro,Setup,Demo 1,Demo 2,Demo 3,Demo 4,Demo 5,Demo 6" | split: "," %}  
+  {% assign tpages = site.tpages | split: "," %}  
+  {% assign tnames = site.tnames | split: "," %}  
   <table>
     <tr>
       {% for tpage in tpages %}
