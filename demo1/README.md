@@ -5,7 +5,7 @@
 
 This demo will be run on demo.dspace.org.
 
-This test will use the following file to create 14 items with unique metadata: [metadataUpload.csv](metadataUpload.csv)
+This test will use the following file to create 14 items with unique metadata: [metadataUpload.csv]({{site.src_path}}/demo1/metadataUpload.csv)
 
 
 ### Demo 1 Setup
