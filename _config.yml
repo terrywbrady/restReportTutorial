@@ -11,5 +11,5 @@ tpages: "intro,setup/,demo1/,demo2/,demo3/,demo4/,demo5/,demo6/"
 tnames: "Intro,Setup,Demo 1,Demo 2,Demo 3,Demo 4,Demo 5,Demo 6"   
 nav:
   - {name: Intro, path: intro}
-  - {name: Setup, path: path: "setup/"}
+  - {name: Setup, path: "setup/"}
   - {name: "Demo 1", path: "demo1/"}
