@@ -18,5 +18,6 @@
      {% assign cur = tnav.index0 %}
    {% endif %}
 {% endfor %}
-  
-<div>CUR {{site.nav[cur].name}}</div>
+
+{{site.nav}}
+<div>CUR {{cur}}; {{site.nav[cur].name}}</div>
