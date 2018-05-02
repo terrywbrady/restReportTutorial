@@ -11,11 +11,11 @@
   </table>
 </div>
 
-{% assign curi = 0 %}
+{% assign curi = 1 %}
 {% for tnav in site.nav %}
    {% assign alt    = tnav.path | append: ".html" %}
    {% if tnav.path == page.url or alt == page.url %}
-     {% assign curi = tnav.index0 %}
+     {% assign curi = forloop.index0 %}
    {% endif %}
 {% endfor %}
 
