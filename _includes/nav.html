@@ -10,3 +10,13 @@
     </tr>
   </table>
 </div>
+
+{% assign cur = 0 %}
+{% for tnav in site.nav %}
+   {% assign alt    = tnav.path | append: ".html" %}
+   {% if tnav.path == page.url or alt == page.url %}
+     {% assign cur = tnav.index0 %}
+   {% endif %}">
+{% endfor %}
+  
+<div>CUR {{cur}}</div>
