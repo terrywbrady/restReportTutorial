@@ -12,7 +12,27 @@ tnames: "Intro,Setup,Demo 1,Demo 2,Demo 3,Demo 4,Demo 5,Demo 6"
 nav:
   intro:
     name: Intro
+    path: intro
   setup:
     name: Setup
+    path: setup/
+  demo1:
+    name: Demo 1
+    path: demo1/
+  demo2:
+    name: Demo 2
+    path: demo2/
+  demo3:
+    name: Demo 3
+    path: demo3/
+  demo4:
+    name: Demo 4
+    path: demo4/
+  demo5:
+    name: Demo 5
+    path: demo5/
+  demo6:
+    name: Demo 6
+    path: demo6/
     
   
