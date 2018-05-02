@@ -1,3 +1,4 @@
+{% if site.nav_style == "menu" %}
 <div>
   <table>
     <tr>
@@ -10,6 +11,7 @@
     </tr>
   </table>
 </div>
+{% else %}
 
 {% assign curi = 1 %}
 {% for tnav in site.nav %}
@@ -37,3 +39,4 @@
   </td>
 </tr>
 </table>
+{% endif %}
