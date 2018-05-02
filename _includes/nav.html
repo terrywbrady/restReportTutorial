@@ -19,4 +19,8 @@
    {% endif %}
 {% endfor %}
 
-<div>CUR {{curi}}; {{site.nav[curi].name}}</div>
+<div>
+  <a class="button" href="{{site.nav[curi-1].path}}">&lt;-- {{site.nav[curi-1].name}}</a>
+  <span class="current">{{site.nav[curi].name}}</span>
+  <a class="button" href="{{site.nav[curi+1].path}}">{{site.nav[curi+1].name}} --&gt;</a>
+</div>
