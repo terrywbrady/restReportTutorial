@@ -11,13 +11,12 @@
   </table>
 </div>
 
-{% assign cur = 0 %}
+{% assign curi = 0 %}
 {% for tnav in site.nav %}
    {% assign alt    = tnav.path | append: ".html" %}
    {% if tnav.path == page.url or alt == page.url %}
-     {% assign cur = tnav.index0 %}
+     {% assign curi = tnav.index0 %}
    {% endif %}
 {% endfor %}
 
-{{site.nav}}
-<div>CUR {{cur}}; {{site.nav[cur].name}}</div>
+<div>CUR {{curi}}; {{site.nav[curi].name}}</div>
