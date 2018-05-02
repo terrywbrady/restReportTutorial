@@ -18,9 +18,12 @@
      {% assign curi = forloop.index0 %}
    {% endif %}
 {% endfor %}
+{% assign curp = curi-1 %}
+{% assign curn = curi+1 %}
+
 
 <div>
-  <a class="button" href="{{site.nav[curi-1].path}}">&lt;-- {{site.nav[curi-1].name}}</a>
+  <a class="button" href="{{site.nav[curp].path}}">&lt;-- {{site.nav[curp].name}}</a>
   <span class="current">{{site.nav[curi].name}}</span>
-  <a class="button" href="{{site.nav[curi+1].path}}">{{site.nav[curi+1].name}} --&gt;</a>
+  <a class="button" href="{{site.nav[curn].path}}">{{site.nav[curn].name}} --&gt;</a>
 </div>
