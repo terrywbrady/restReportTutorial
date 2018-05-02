@@ -16,7 +16,7 @@
    {% assign alt    = tnav.path | append: ".html" %}
    {% if tnav.path == page.url or alt == page.url %}
      {% assign cur = tnav.index0 %}
-   {% endif %}">
+   {% endif %}
 {% endfor %}
   
 <div>CUR {{cur}}</div>
