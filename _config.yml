@@ -6,7 +6,16 @@ tagline: Understand your metadata
 theme: jekyll-theme-cayman
 show_downloads: false
 google_analytics: UA-297597-14
+
+# --------------------------------
+# Custom additions for the tutorial navigation bar
+# --------------------------------
+
+# src_path - used to construct nested links to code files
 src_path: "https://github.com/terrywbrady/restReportTutorial/tree/gh-pages"
+
+# nav_style: menu or button
+nav_style: menu
 nav:
   - {name: Intro,    path: "/intro"}
   - {name: Setup,    path: "/setup/"}
