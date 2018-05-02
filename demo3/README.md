@@ -7,7 +7,7 @@ This demo will be run on demo.dspace.org.
 
 The file [itemsWithBitstreams.zip]({{site.src_dir}}data) will be used to populate a collection used in this demonstration.
 
-<a href="{{site.src_dir}}/data">itemsWithBitstreams.zip</a>...
+<a href="{{site.src_dir}}/data">itemsWithBitstreams.zip</a>...{{site.src_dir}}...
 
 You can browse the contents of this zip file [here](data/itemsWithBitstreams).
 
