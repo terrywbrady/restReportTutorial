@@ -20,6 +20,7 @@
 {% endfor %}
 {% assign curp = curi | minus: 1 %}
 {% assign curn = curi | plus: 1 %}
+{% assign count = site.nav | size %}
 
 <table>
 <tr>
@@ -30,7 +31,7 @@
   </td>  
   <td>{{site.nav[curi].name}}</td>
   <td>
-    {% if curp < site.nav | size %}
+    {% if curn < count %}
     <a class="button" href="{{site.nav[curn].path | prepend: site.url}}">{{site.nav[curn].name}} &#x21E8;</a>
     {% endif %}
   </td>
