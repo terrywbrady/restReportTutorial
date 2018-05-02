@@ -18,8 +18,8 @@
      {% assign curi = forloop.index0 %}
    {% endif %}
 {% endfor %}
-{% assign curp = curi-1 %}
-{% assign curn = curi+1 %}
+{% assign curp = curi | minus: 1 %}
+{% assign curn = curi | plus: 1 %}
 
 
 <div>
