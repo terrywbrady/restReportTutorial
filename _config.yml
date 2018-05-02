@@ -15,7 +15,7 @@ google_analytics: UA-297597-14
 src_path: "https://github.com/terrywbrady/restReportTutorial/tree/gh-pages"
 
 # nav_style: menu or button
-nav_style: button
+nav_style: nav
 nav:
   - {name: Intro,    path: "/intro"}
   - {name: Setup,    path: "/setup/"}
