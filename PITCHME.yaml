@@ -4,3 +4,5 @@ gatoken : UA-89672351-2
 slide-number: true
 
 background-size : contain
+
+theme-override : PITCHME.css
