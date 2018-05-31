@@ -99,13 +99,8 @@ Open the REST Report Query Tool:
 ![](demo1/q1.png)
 +++
 - Export the results and fix the metadata with a bulk update
-  - Change
-
-```kitten; puppy```
-
-  - to
-
-```kitten||puppy```
+  - Change __kitten; puppy__
+  - to __kitten||puppy__
 
 +++
 ![](demo1/qr1.png)
@@ -116,21 +111,10 @@ Open the REST Report Query Tool:
 ![](demo1/q2.png)
 +++
 - Export the results and fix the metadata with a bulk update
-  - Change
-
-```Person Five and Person One```
-
-  - to
-
-```Person Five||Person One```
-
-  - Change
-
-```Person Six and Person Seven```
-
-  - to
-
-```Person Six||Person Seven```
+  - Change __Person Five and Person One__
+    - to __Person Five||Person One__
+  - Change __Person Six and Person Seven__
+    - to __Person Six||Person Seven__
 +++
 ![](demo1/qr2.png)
 +++
