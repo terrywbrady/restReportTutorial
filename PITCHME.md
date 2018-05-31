@@ -43,7 +43,7 @@ The test files referenced in this presentation are available on github.
 See the tutorial for instructions.
 
 ---
-### 1. Create Tutorial Community
+### Create Tutorial Community
 
 - Login as Administrator
 - Create a community for the tutorial
@@ -63,7 +63,7 @@ This test will use the following file to create 14 items with unique metadata.
 ![](presentation/csv.png)
 +++
 
-### 2. Create a Collection named Demo 1
+### Create a Collection named Demo 1
 +++
 ![](demo1/demo1a.png)
 +++
@@ -141,3 +141,57 @@ Open the REST Report Query Tool:
 - Bulk update the file
 +++
 ![](demo1/qr5.png)
+---
+### Demo 2: Item Special Cases - Exploring Filters
++++
+Query for items containing "TODO" in dc.description.abstract
++++
+![](demo2/q-todo.png)
++++
+![](demo2/qr-todo.png)
++++
+In DSpace, edit the item "TODO: withdraw" and Withdraw it
++++
+![](demo2/withdraw.png)
++++
+In DSpace, edit the item "TODO: make private" and Make it private
++++
+![](demo2/private.png)
++++
+Rerun the query tool, note that the withdrawn item does not appear
+
+Items that a user cannot access will be filtered from the result set (unless you override this behavior in code)
++++
+![](demo2/todoUnauth.png)
+Login to the REST interface to include withdrawn items in the report
++++
+- In a new tab, open /rest/static/reports/authenticate.html
+- Sign in as an administrator
++++
+RE-run the TODO query
++++
+![](demo2/todoAuth.png)
++++
+## Collection Report - Special Filters
+
+Open the "Collection Filter" Report: /rest/static/reports/index.html
++++
+![](demo2/coll.png)
++++
+Set Filters to View Counts of Private and Discoverable Items
++++
+![](demo2/collFilters.png)
++++
+View Filter Counts
++++
+![](demo2/collRes.png)
++++
+![](demo2/collItems.png)
++++
+Add dc.description.abstract to Item Listing
++++
+![](demo2/collItemFields.png)
++++
+View Item Listing with dc.description.abstract
++++
+![](demo2/collItemWithFields.png)
