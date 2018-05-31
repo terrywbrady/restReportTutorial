@@ -195,3 +195,35 @@ Add dc.description.abstract to Item Listing
 View Item Listing with dc.description.abstract
 +++
 ![](demo2/collItemWithFields.png)
+---
+## Bitstream Filters
+
+Ingest Items with Zero, One, and Two Items and apply Bitstream Filters
+
+The file [itemsWithBitstreams.zip](https://github.com/terrywbrady/restReportTutorial/tree/master/demo3/data) will be used to populate a collection used in this demonstration.
+
++++
+In your test community, create a new Collection Named "Demo 3".  Ingest the __itemsWithBitstreams.zip__.
++++
+![](demo3/batchLoadDemo3.png)
++++
+### Query for Items based on Bitstream Filters
++++
+Open the Collection Report
+![](demo3/coll3.png)
++++
+Set the Filter based on Original Bitstream Count
+This report can be used to ensure consistent bitstream content within a collection.
++++
+![](demo3/coll3fBitNo.png)
++++
+![](demo3/coll3fBitNoRes.png)
++++
+Set the Filter based on Original Bitstream Type (Document or Image)
+
+- This report can be used to ensure consistent bitstream content within a collection.
+- If this filter is paired with the metadata query tool, it can be used to enforce required metadata for a specific bitstream type.
++++
+![](demo3/coll3fType.png)
++++
+![](demo3/coll3fTypeRes.png)
