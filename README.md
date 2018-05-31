@@ -6,6 +6,9 @@ The DSpace 6.0 release contained a set of reporting tools built upon the DSpace 
 
 [![Start Tutorial](StartTutorial.png)](https://terrywbrady.github.io/restReportTutorial/intro)
 
+### Presentation Resources
+[Slides: ![GitPitch](https://gitpitch.com/assets/badge.svg)](https://gitpitch.com/terrywbrady/restReportTutorial/) 
+
 ## DSpace 6.3: Related Jira Tickets/Pull Requests
 This tutorial will make use of some bug fixes that will be present in the DSpace 6.3 release (due in June 2018).  
 These changes have been merged into the dspace-6_X code branch.
