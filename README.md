@@ -6,6 +6,7 @@ The DSpace 6.0 release contained a set of reporting tools built upon the DSpace 
 
 [![Start Tutorial](StartTutorial.png)](https://terrywbrady.github.io/restReportTutorial/intro)
 
+### Presentation Resources
 [Slides: ![GitPitch](https://gitpitch.com/assets/badge.svg)](https://gitpitch.com/terrywbrady/restReportTutorial/) 
 
 ## DSpace 6.3: Related Jira Tickets/Pull Requests
