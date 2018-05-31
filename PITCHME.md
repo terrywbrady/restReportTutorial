@@ -58,24 +58,23 @@ See the tutorial for instructions.
 ---
 ### Test Data
 This test will use the following file to create 14 items with unique metadata.
-[metadataUpload.csv](demo1/metadataUpload.csv)
-
+[metadataUpload.csv](https://github.com/terrywbrady/restReportTutorial/blob/master/demo1/metadataUpload.csv)
++++
+![](presentation/csv.png)
 +++
 
 ### 2. Create a Collection named Demo 1
 +++
 ![](demo1/demo1a.png)
-
 +++
 #### Navigate to the Collection and Get Its Handle
 ![](demo1/demo1b.png)
 +++
-#### Edit __demo1/metadataUpload.csv__, replace "your-coll-handle-goes-here"
+Edit metadataUpload.csv, replace "your-coll-handle-goes-here"
 +++
 ![](demo1/demo1c.png)
 +++
-
-#### Bulk Import __demo1/metadataUpload.csv__
+Bulk Import metadataUpload.csv
 +++
 ![](demo1/demo1d.png)
 +++
@@ -87,9 +86,10 @@ This test will use the following file to create 14 items with unique metadata.
 +++
 ### Demo 1 Queries
 +++
-Open the REST Report Query Tool: https://demo.dspace.org/rest/static/reports/query.html
+Open the REST Report Query Tool:
+- /rest/static/reports/query.html
 +++
-#### Select your "Deomo 1" collection from the collection list
+#### Select your "Demo 1" collection from the collection list
 +++
 ![](demo1/q.png)
 +++
@@ -99,7 +99,10 @@ Open the REST Report Query Tool: https://demo.dspace.org/rest/static/reports/que
 ![](demo1/q1.png)
 +++
 - Export the results and fix the metadata with a bulk update
-  - Change `"kitten; puppy"` to `"kitten||puppy"`
+  - Change
+    - `"kitten; puppy"`
+  - to
+    - `"kitten||puppy"`
 +++
 ![](demo1/qr1.png)
 +++
@@ -109,8 +112,14 @@ Open the REST Report Query Tool: https://demo.dspace.org/rest/static/reports/que
 ![](demo1/q2.png)
 +++
 - Export the results and fix the metadata with a bulk update
-  - Change `"Person Five and Person One"` to `"Person Five||Person One"`
-  - Change `"Person Six and Person Seven"` to `"Person Six||Person Seven"`
+  - Change
+    - `"Person Five and Person One"`
+  - to
+    - `"Person Five||Person One"`
+  - Change
+    - `"Person Six and Person Seven"`
+  - to
+    - `"Person Six||Person Seven"`
 +++
 ![](demo1/qr2.png)
 +++

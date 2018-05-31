@@ -34,7 +34,7 @@ This test will use the following file to create 14 items with unique metadata: [
 
 Open the REST Report Query Tool: https://demo.dspace.org/rest/static/reports/query.html
 
-#### Select your "Deomo 1" collection from the collection list
+#### Select your "Demo 1" collection from the collection list
 ![Screenshot: Select Demo 1 Collection](q.png)
 #### Run the pre-defined query "Has compound subject"
 - Include dc.subject in the report output
