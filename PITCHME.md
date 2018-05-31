@@ -213,6 +213,7 @@ Open the Collection Report
 ![](demo3/coll3.png)
 +++
 Set the Filter based on Original Bitstream Count
+
 This report can be used to ensure consistent bitstream content within a collection.
 +++
 ![](demo3/coll3fBitNo.png)
@@ -227,3 +228,20 @@ Set the Filter based on Original Bitstream Type (Document or Image)
 ![](demo3/coll3fType.png)
 +++
 ![](demo3/coll3fTypeRes.png)
+---
+## Ingest Items with Embargoes
+
+Upload a Zip file containing embargoed items into Collection "Demo 3".
+
+The file [itemsWithEmbargoBitstreams.zip](https://github.com/terrywbrady/restReportTutorial/tree/master/demo4/data) will be used to populate a collection used in this demonstration.  
+
+The contents file for each item sets a read restriction for the group Administrator for each item.
+
++++
+![](demo4/embUpload.png)
++++
+Set a filter to query for items with a restricted original bitstream (not visible to anonymous group)
++++
+![](demo4/embFilter.png)
++++
+![](demo4/embRes.png)
