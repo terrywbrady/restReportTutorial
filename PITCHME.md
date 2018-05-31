@@ -272,7 +272,7 @@ The query tool can be easily expanded to view/enforce local metadata conventions
 +++
 ### Code example - Add Query
 
-See https://github.com/DSpace/DSpace/blob/dspace-6.2/dspace-rest/src/main/webapp/static/reports/restQueryReport.js#L200-L246
+See [restQueryReport.js](https://github.com/DSpace/DSpace/blob/dspace-6.2/dspace-rest/src/main/webapp/static/reports/restQueryReport.js#L200-L246)
 +++
 ### Code example: Add Query to the List
 ```
@@ -339,9 +339,11 @@ See https://github.com/terrywbrady/PlainTextCSV_GoogleAppsScript to enable a Goo
       form.submit();
     }
 ```
-+++
+---
 ### Demo of Georgetown's Report Tools
 (Time and Network Permitting)
+---
+### How might you use these tools?
 ---
 ## Thank You
 
