@@ -28,6 +28,24 @@ https://github.com/terrywbrady/info
 
 +++
 
+### Background
+
+- Georgetown created a PHP of these tools for DSpace 1.8
+  - Difficult to share
+- Switched the code to use DSpace rest
+- Contributed to DSpace 6
+- Look at API landing page
+
++++
+
+### Results
+
+- No longer writing reports/Queries
+- Self-service reports for Digital Services team
+- Self-service data exports
+
++++
+
 ### Try it yourself
 
 - [Tutorial Pages](https://terrywbrady.github.io/restReportTutorial/intro)
@@ -148,6 +166,14 @@ Open the REST Report Query Tool:
 - Bulk update the file
 +++
 ![](demo1/qr5.png)
+
+---
+## Queries and Filters
+- Step 1 - run query, count results
+- Step 2 - assemble "page" of results
+- Step 3 - apply filter to page of results
+  - Filter counts are scoped to 1 page
+- Step 4 - add requested metadata
 ---
 ## Task 2: Filter for Unique items
 DSpace will provide a listing of all withdrawn or private items, but it is difficult to see these properties in the context of other query criteria.
