@@ -32,7 +32,7 @@ https://github.com/terrywbrady/info
 
 - Georgetown created a PHP of these tools for DSpace 1.8
   - Difficult to share
-- Switched the code to use DSpace rest
+- Switched the code to use DSpace REST
 - Contributed to DSpace 6
 - Look at API landing page
 
@@ -40,7 +40,7 @@ https://github.com/terrywbrady/info
 
 ### Results
 
-- No longer writing reports/Queries
+- No longer writing reports/queries
 - Self-service reports for Digital Services team
 - Self-service data exports
 
@@ -61,7 +61,9 @@ The test files referenced in this presentation are available on github.
 See the tutorial for instructions.
 
 +++
-Note: The examples in this demo are contrived to make it easy to follow.
+## Note about the test data
+
+The examples in this demo are contrived to make it easy to follow.
 
 Our repository has half a million items.
 We have used these tools to fix inconsistencies in thousands of item records.
