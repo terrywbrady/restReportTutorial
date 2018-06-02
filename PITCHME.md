@@ -63,7 +63,7 @@ We have used these tools to fix inconsistencies in thousands of item records.
 
 ---
 ## Task 1: Metadata Consistency
----
++++
 ### Test Data
 This test will use the following file to create 14 items with unique metadata.
 [metadataUpload.csv](https://github.com/terrywbrady/restReportTutorial/blob/master/demo1/metadataUpload.csv)
