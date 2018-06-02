@@ -42,6 +42,12 @@ The test files referenced in this presentation are available on github.
 
 See the tutorial for instructions.
 
++++
+Note: The examples in this demo are contrived to make it easy to follow.
+
+Our repository has half a million items.
+We have used these tools to fix inconsistencies in thousands of item records.
+
 ---
 ### Create Tutorial Community
 
@@ -56,13 +62,14 @@ See the tutorial for instructions.
 ![](setup/demo5.png)
 
 ---
+## Task 1: Metadata Consistency
+---
 ### Test Data
 This test will use the following file to create 14 items with unique metadata.
 [metadataUpload.csv](https://github.com/terrywbrady/restReportTutorial/blob/master/demo1/metadataUpload.csv)
 +++
 ![](presentation/csv.png)
 +++
-
 ### Create a Collection named Demo 1
 +++
 ![](demo1/demo1a.png)
@@ -142,6 +149,9 @@ Open the REST Report Query Tool:
 +++
 ![](demo1/qr5.png)
 ---
+## Task 2: Filter for Unique items
+DSpace will provide a listing of all withdrawn or private items, but it is difficult to see these properties in the context of other query criteria.
++++
 ### Demo 2: Item Special Cases - Exploring Filters
 +++
 Query for items containing "TODO" in dc.description.abstract
@@ -196,8 +206,9 @@ View Item Listing with dc.description.abstract
 +++
 ![](demo2/collItemWithFields.png)
 ---
-## Bitstream Filters
-
+## Task 3: Filter Items based on Bitstream Properties
++++
+## Bitstream Properties
 Ingest Items with Zero, One, and Two Items and apply Bitstream Filters
 
 The file [itemsWithBitstreams.zip](https://github.com/terrywbrady/restReportTutorial/tree/master/demo3/data) will be used to populate a collection used in this demonstration.
@@ -229,6 +240,8 @@ Set the Filter based on Original Bitstream Type (Document or Image)
 +++
 ![](demo3/coll3fTypeRes.png)
 ---
+## Task 4: Filter Items base on Embargo Properties
++++
 ## Ingest Items with Embargoes
 
 Upload a Zip file containing embargoed items into Collection "Demo 3".
@@ -246,7 +259,7 @@ Set a filter to query for items with a restricted original bitstream (not visibl
 +++
 ![](demo4/embRes.png)
 ---
-## View Bitstream Properties
+## Task 5: View Bitstream Properties
 
 Search Collection Demo 3
 +++
@@ -260,7 +273,7 @@ View Results
 +++
 ![](demo5/bit3.png)
 ---
-## Custom Extensions to the the REST Query Tools
+## Task 6: Custom Extensions to the the REST Query Tools
 
 Adding Custom Queries to the Query Tool
 
@@ -322,6 +335,8 @@ To enable this feature, add sorttable.js to your distribution and enable the fol
 See https://github.com/terrywbrady/PlainTextCSV_GoogleAppsScript to enable a Google Apps Script service that will create a Google Sheet from CSV.
 +++
 ![](demo6/cust5.png)
++++
+![](presentation/gsheet.png)
 +++
 ```
     this.gsheet = function(rows) {
