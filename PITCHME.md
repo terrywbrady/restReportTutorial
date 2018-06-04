@@ -268,7 +268,7 @@ Set the Filter based on Original Bitstream Type (Document or Image)
 +++
 ![](demo3/coll3fTypeRes.png)
 ---
-## Task 4: Filter Items base on Embargo Properties
+## Task 4: Filter Items based on Embargo Properties
 +++
 ## Ingest Items with Embargoes
 
