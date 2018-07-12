@@ -50,8 +50,10 @@ https://github.com/terrywbrady/info
 
 - [Tutorial Pages](https://terrywbrady.github.io/restReportTutorial/intro)
 - You can even perform this on demo.dspace.org
-- Note: there are some bugs fixes that will be included in DSpace 6.3 (Jun 2018)
-  - The tutorial will mention which steps depend on these fixes
+
+
+
+
 
 ---
 ### Setup/Test Data
