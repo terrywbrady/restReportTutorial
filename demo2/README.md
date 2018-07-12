@@ -26,6 +26,7 @@ Items that a user cannot access will be filtered from the result set (unless you
 ![Screenshot: TODO Query, Unauthenticated](todoUnauth.png)
 
 ### Login to the REST interface to include withdrawn items in the report
+By default, the REST Report Tools do not provide a link to a login box.  You can access a password login box at the following URL.
 
 - In a new tab, open https://demo.dspace.org/rest/static/reports/authenticate.html
 - Sign in as __dspacedemo+admin@gmail.com__
@@ -47,10 +48,6 @@ Open the "Collection Filter" Report: https://demo.dspace.org/rest/static/reports
 ### View Filter Counts
 
 ![Screenshot: Collection Report with Filters](collRes.png)
-
-![Note](../note.png) There is a bug in the detection of withdrawn items in DSpace 6x.  It cannot yet be tested on demo.dspace.org.
-* See https://jira.duraspace.org/browse/DS-3714
-* https://github.com/DSpace/DSpace/pull/1862
 
 ![Screenshot: Collection Report Private Items](collItems.png)
 
