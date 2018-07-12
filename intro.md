@@ -13,7 +13,6 @@ This video provides an overview of the DSpace REST Report Tools.
 
 [![Tools Still Image](restOverview.png)](https://www.youtube.com/watch?v=K2gGHYUZI40)
 
-The DSpace instance shown in this video contains some bug fixes that will be included in DSpace 6.3 release.
 ## Try it yourself
 - [Setup The Tutorial](setup/README.md)
 - [Demo 1: Metadata Load and Update](demo1/README.md)
