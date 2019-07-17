@@ -1,4 +1,4 @@
-## DSpace REST Reporting Tools – A REST Based Application within DSpace 6
+### DSpace REST Reporting Tools – A REST Based Application within DSpace 6
 
 Terry Brady
 
